@@ -1,0 +1,91 @@
+.loginbox {
+	background-color: #eeeff1;
+	width: 300px;
+	height: 472px;
+}
+
+@font-face {
+	font-family: HelveticaNeue;
+	src: url('../eBay/HelveticaNeue-Thin.otf');
+}
+
+.loginheader {
+	font-size: 17px;
+	color: #0064d2;
+	font-family: HelveticaNeue;
+	font-weight: bold;
+	width: 100%;
+	margin: 40px 0px 6px 120px;
+}
+
+.headerline {
+	display: block;
+	height: 1px;
+	width: 100%;
+	color: #c4c4c4;
+	margin: 0px 0px 36px 0px;
+}
+
+.crisislbl {
+	font-family: HelveticaNeue;
+	font-weight: lighter;
+	font-size: 102px;
+	font-color: #000000;
+	font-weight: normal;
+	margin: 0px 0px 0px 40px;
+}
+
+.mgmtlbl {
+	font-family: HelveticaNeue;
+	font-weight: light;
+	font-size: 23px;
+	font-color: #000000;
+	font-weight: normal;
+	align: center;
+	margin: 49px 0px 17px 50px;
+}
+
+.usertxt {
+	height: 44px;
+	width: 290px;
+	margin: 35px 8px 8px 8px;
+	font-family: HelveticaNeue;
+	font-size: 16px;
+	font-color: #b3b2b2;
+	font-weight: normal;
+	border-radius: 10px;
+	padding-left: 5px;
+}
+
+.passtxt {
+	height: 44px;
+	width: 290px;
+	margin: 0px 8px 8px 8px;
+	font-family: HelveticaNeue;
+	font-size: 16px;
+	font-color: #b3b2b2;
+	font-weight: normal;
+	border-radius: 10px;
+	padding-left: 5px;
+}
+
+.usertxt:focus {
+	font-color: #000000;
+}
+
+.passtxt:focus {
+	font-color: #000000;
+}
+
+.loginbtn {
+	background: url(../eBay/Button_normal.png);
+	font-size: 16px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: HelveticaNeue;
+	align: center;
+	width: 290px;
+	height: 40px;
+	border: 0;
+	margin: 0px 8px 60px 8px;
+}

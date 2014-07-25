@@ -1,0 +1,174 @@
+.crisis-mgmt-detail-content
+{
+    font-family: "Helvetica Neue";
+    font-size:12px;
+    font-color:#000000
+}
+
+.crisis-mgmt-detail-accordion-header {
+    color: #0064D2 !important;
+    font-weight: bold;
+    font-size: 16px;
+}
+.crisis-mgmt-detail-accordion-header:hover
+{
+    text-decoration:none;
+}
+
+
+.crisis-mgmt-detail-accordion-body
+{
+    background-color: #ECF0F3 !important;
+    padding: 0;
+    padding-left: 15px;
+}
+
+.crisis-mgmt-detail-pointOfContact
+{
+    padding: 0px 0px 0 0px;
+    border: none;
+}
+.crisis-mgmt-detail-pointOfContactItem
+{
+    background-color: #F6F7FB !important;
+    height: 35px;
+}
+
+.crisis-mgmt-detail-crisisDetail
+{
+    padding-right: 0px;
+}
+
+.crisis-mgmt-detail-crisisDescription
+{
+    padding-top:14px;
+}
+
+.crisis-mgmt-detail-updateDescription
+{
+    padding-top: 8px;
+}
+
+.crisis-mgmt-detail-severity
+{
+
+    font-size: 20px;
+    line-height: 2.3em;
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    background-color: #FF4200;
+    border-radius: 50%;
+}
+
+.crisis-mgmt-detail-main
+{
+    padding: 10px 0px 10px 0px;
+    height:96px;
+    width:104%;
+}
+
+.glyphicon-chevron-up {
+    color: black !important;
+}
+
+.crisis-mgmt-detail-timeOccured
+{
+    padding-top: 30px;
+}
+
+a.crisis-mgmt-detail-timeOccuredLink
+{
+    color:#0064D2;
+    text-decoration:none;
+}
+
+.crisis-mgmt-crisisDetail
+{
+    margin-left:15px;
+    margin-top: 17px;
+}
+
+.crisis-mgmt-detail-locationInfo-firstItem,.crisis-mgmt-detail-updates-firstItem
+{
+    padding-top: 15px !important;
+}
+
+.crisis-mgmt-detail-locationInfo-lastItem,.crisis-mgmt-detail-updates-lastItem
+{
+    padding-bottom: 16px !important;
+}
+
+.crisis-mgmt-detail-locationInfo-remainingItems, .crisis-mgmt-detail-updates-remainingItems
+{
+    padding-top: 12px;
+}
+
+.crisis-mgmt-detail-icon
+{
+    width: 20px;
+    height:20px;
+}
+
+.crisis-mgmt-detail-expandIcon
+{
+    content: url('../../images/Accordiandown.svg');
+}
+
+.crisis-mgmt-detail-collapseIcon
+{
+    content: url('../../images/Accordianup.svg');
+}
+
+.crisis-mgmt-detail-callTeamMember
+{
+    content: url('../../images/call.svg');
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+        float: left;
+    }
+    .col-sm-12 {
+        width: 100%;
+    }
+    .col-sm-11 {
+        width: 91.66666667%;
+    }
+    .col-sm-10 {
+        width: 83.33333333%;
+    }
+    .col-sm-9 {
+        width: 75%;
+    }
+    .col-sm-8 {
+        width: 66.66666667%;
+    }
+    .col-sm-7 {
+        width: 58.33333333%;
+    }
+    .col-sm-6 {
+        width: 50%;
+    }
+    .col-sm-5 {
+        width: 41.66666667%;
+    }
+    .col-sm-4 {
+        width: 33.33333333%;
+    }
+    .col-sm-3 {
+        width: 25%;
+    }
+    .col-sm-2 {
+        width: 16.66666667%;
+    }
+    .col-sm-1 {
+        width: 8.33333333%;
+    }
+
+}
+

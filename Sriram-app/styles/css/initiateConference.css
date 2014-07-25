@@ -1,0 +1,63 @@
+.conferenceTitle {
+text-align: center;
+height: 54px;
+padding-top: 10px;
+border-bottom: 1px #ffffff solid;
+background-color: #ffffff;
+ width:100%;
+}
+
+.contentcontainer {
+height: 100%;
+margin-top: -54px;
+padding-top: 54px;
+background-color: #eeeff1;
+ width:100%;
+}
+
+.conferenceImage {
+display: block;
+margin-left: auto;
+margin-right: auto;
+height:160px;
+width:160px;
+vertical-align: middle;
+margin-top: 63px;
+}
+
+.conferenceButton {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #273ef6), color-stop(1, #273ef6) );
+    background:-moz-linear-gradient( center top, #2952F6 5%, #2952F6 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2952F6', endColorstr='#273EF6');
+    background-color: #2952F6;
+    -webkit-border-top-left-radius:10px;
+    -moz-border-radius-topleft:10px;
+    border-top-left-radius:10px;
+    -webkit-border-top-right-radius:10px;
+    -moz-border-radius-topright:10px;
+    border-top-right-radius:10px;
+    -webkit-border-bottom-right-radius:10px;
+    -moz-border-radius-bottomright:10px;
+    border-bottom-right-radius:10px;
+    -webkit-border-bottom-left-radius:10px;
+    -moz-border-radius-bottomleft:10px;
+    border-bottom-left-radius:10px;
+    text-indent:0px;
+    display:inline-block;
+    color:#ffffff;
+    font-family:sans-serif;
+    font-size:13px;
+    font-weight:bold;
+    font-style:normal;
+    height:35px;
+    line-height:31px;
+    width: 90%;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:0px 0px 0px #1570cd;
+    margin-top: 25px;
+    margin-bottom: 25px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

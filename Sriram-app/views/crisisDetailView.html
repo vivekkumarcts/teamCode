@@ -1,0 +1,116 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap core CSS -->
+
+    <link rel="stylesheet" type="text/css" href="../styles/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../styles/css/main.css">
+    <link rel="stylesheet" type="text/css" href="../styles/css/crisisDetail.css">
+    <script type="text/javascript" src="../scripts/vendors/jquery-1.11.1.min.js">
+    </script>
+    <script type="text/javascript" src="../scripts/vendors/bootstrap.js">
+    </script>
+    <script type="text/javascript" src="../scripts/vendors/angular.min.js">
+    </script>
+    <script type="text/javascript" src="../scripts/app.js">
+    </script>
+    <script type="text/javascript" src="../controllers/crisisDetail.js"></script>
+
+</head>
+
+
+<body ng-app="crisisMgmtApp" ng-controller="crisisDetailController">
+<div class="cr-mainheading" role="navigation">Detail View</div>
+
+
+<div class="row crisis-mgmt-detail-accordion-body crisis-mgmt-detail-main crisis-mgmt-detail-content">
+    <div class="col-sm-3 col-md-1 col-lg-1 crisis-mgmt-detail-crisisDetail"><span class="badge crisis-mgmt-detail-severity crisis-mgmt-crisisDetail">{{crisisDetails.crisisSeverity}}</span>
+    </div>
+    <div class="col-sm-6 hello col-md-9 col-lg-10 crisis-mgmt-detail-crisisDescription">
+        <div><strong>{{crisisDetails.CRISIS_TYPE}}</strong>
+        </div>
+        <div>Reported {{crisisDetails.REPORTED_ON}}</div>
+        <div>Your time {{crisisDetails.LOCAL_TIME}}</div>
+    </div>
+    <div class="col-sm-3 col-md-2 col-lg-1 crisis-mgmt-detail-timeOccured">
+        <a class="crisis-mgmt-detail-timeOccuredLink">{{crisisDetails.TIME_ELAPSED}}</a>
+    </div>
+</div>
+
+
+<div class="panel-group crisis-mgmt-detail-content" id="crisisDetailAccordion">
+    <div class="panel">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a ng-click="setAccordionState('locationContacts')" data-toggle="collapse" data-parent="#crisisDetailAccordion" href="#locationInfo" class="crisis-mgmt-detail-accordion-header">
+                    Location Info
+                    <img  ng-class="{'crisis-mgmt-detail-expandIcon':locationInfo.isExpanded,'crisis-mgmt-detail-collapseIcon':!locationInfo.isExpanded}" class="crisis-mgmt-detail-icon  pull-right">
+                    </img>
+          </span>
+                </a>
+            </h4>
+        </div>
+
+        <div id="locationInfo" class="panel-collapse collapse">
+            <div class="panel-body crisis-mgmt-detail-accordion-body">
+                <div class="crisis-mgmt-detail-locationInfo-remainingItems" ng-class="{'crisis-mgmt-detail-locationInfo-firstItem':$first,'crisis-mgmt-detail-locationInfo-lastItem':$last}" ng-repeat="location in locationInfo.locationDetails">
+                    {{location.CAT_TYPE}} : {{location.TYPE_VAL}}
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="panel">
+
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a ng-click="setAccordionState('POC')" data-toggle="collapse" data-parent="#crisisDetailAccordion" href="#pointOfContact" class="crisis-mgmt-detail-accordion-header">
+                    Point of Contact
+          <img  ng-class="{'crisis-mgmt-detail-expandIcon':pointsOfContact.isExpanded,'crisis-mgmt-detail-collapseIcon':!pointsOfContact.isExpanded}" class="crisis-mgmt-detail-icon  pull-right">
+          </img>
+                </a>
+            </h4>
+        </div>
+
+        <div id="pointOfContact" class="panel-collapse collapse">
+            <div class="panel-body list-group crisis-mgmt-detail-pointOfContact">
+                <ul class="crisis-mgmt-detail-pointOfContact">
+                    <li ng-repeat="pointOfContact in pointsOfContact.contacts" class="list-group-item crisis-mgmt-detail-pointOfContactItem">
+                        {{pointOfContact.ROLE_TYPE }} : {{pointOfContact.TYPE_VAL }}
+                        <img class="crisis-mgmt-detail-icon crisis-mgmt-detail-callTeamMember pull-right"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="panel crisis-mgmt-detail-content">
+
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a ng-click="setAccordionState('updates')" data-toggle="collapse" data-parent="#crisisDetailAccordion" href="#updates" class="crisis-mgmt-detail-accordion-header">
+                    Updates
+                    <img  ng-class="{'crisis-mgmt-detail-expandIcon':crisisUpdates.isExpanded,'crisis-mgmt-detail-collapseIcon':!crisisUpdates.isExpanded}" class="crisis-mgmt-detail-icon  pull-right">
+                    </img>
+                </a>
+            </h4>
+        </div>
+
+        <div id="updates" class="panel-collapse collapse in">
+            <div class="panel-body crisis-mgmt-detail-accordion-body">
+                <div class="crisis-mgmt-detail-updates-remainingItems" ng-class="{'crisis-mgmt-detail-updates-firstItem':$first,'crisis-mgmt-detail-updates-lastItem':$last}" ng-repeat="update in crisisUpdates.updateList">
+                    <div>{{update.UPDATE_TIME}}</div>
+                    <div class="crisis-mgmt-detail-updateDescription">{{update.UPDATE_DESCRIPTION}}</div>
+                </div>
+            </div>
+
+        </div>
+
+</body>
+
+</html>

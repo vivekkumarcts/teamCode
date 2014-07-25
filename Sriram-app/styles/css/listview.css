@@ -1,0 +1,98 @@
+.firstcolumn{
+    width:15%;
+    float: left;
+
+}
+
+.secondcolumn{
+    width:60%;
+}
+
+.thirdcolumn{
+    width:25%;
+    float:right;
+    vertical-align: middle;
+}
+
+#container {
+    display: table;
+    width: 100%;
+    border-bottom: groove;
+    border-bottom-width: 1px;
+    background-color: #ffffff;
+}
+
+#row  {
+    display: table-row;
+    width: 100%;
+    height: 80px;
+    border-bottom: ridge;
+}
+
+#left{
+    display: table-cell;
+    width:5%;
+    vertical-align: middle;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    height: 80px;
+}
+#middle{
+    display: table-cell;
+    width:60%;
+    padding-top: 15px;
+    height: 80px;
+}
+#right{
+    display: table-cell;
+    width:35%;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 15px;
+    height: 80px;
+}
+#listNav{
+    width: 10px;
+    height:10px;
+    padding-left: 5px;
+}
+#circle{
+    padding-top: 15px;
+    width: 50px;
+    height: 50px;
+    background: #ff4200;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    vertical-align: middle;
+}
+#crisisDataInCircle{
+    text-align:center;
+    font: "Helvetica Neue";
+    font-size: 21;
+    color: #ffffff;
+    vertical-align: middle;
+    line-height:23px;
+}
+#crisisType{
+    font: "Helvetica Neue";
+    font-size: 12;
+}
+#crisisDate{
+    font: "Helvetica Neue";
+    font-size: 12;
+    padding-top: 5px;
+}
+#crisisTime{
+    font: "Helvetica Neue";
+    font-size: 12;
+    padding-top: 5px;
+}
+#crisisDuration{
+    font: "Helvetica Neue";
+    font-size: 12;
+    padding-top: 5px;
+    color: #0064d2;
+}
