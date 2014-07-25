@@ -1,6 +1,6 @@
 function Tasks($scope)
 {
-    $scope.Tasks = [
+$scope.Tasks = [
         {name: 'Active Crisis Info', ImgUrl: '../images/Icon_Active_Crisis.svg',navigation:'map.html'},
         {name: 'Respond to a Crisis', ImgUrl: '../images/Icon_RespondtoCrisis.png',navigation:'home.html'},
         {name: 'CM Policies and Procedures', ImgUrl: '../images/Icon_CMPolicies.png',navigation:'home.html'},
