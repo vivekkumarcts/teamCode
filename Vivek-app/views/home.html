@@ -1,0 +1,35 @@
+<html >
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- Bootstrap core CSS -->
+
+<link rel="stylesheet" type="text/css" href="../styles/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="../styles/css/_base.css">
+<script type="text/javascript" src="../scripts/vendors/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../scripts/vendors/bootstrap.js"></script>
+<script type="text/javascript" src="../scripts/vendors/angular.min.js"></script>
+<script type="text/javascript" src="../controllers/Tasks.js"></script>
+</head>
+
+
+<body ng-app ng-controller="Tasks">
+<div class="cr-body">
+<div class = "centertext">
+<span class="cr-mainheading">Crisis Management</span>	
+<img class = "cr-mainheading-bell" src = "../images/Icon_Alert.png"/></span></div>
+<div class = "contentcontainer">  
+<ul class="list-group">
+  <li ng-repeat="task in Tasks" class="list-group-item">
+      <a ng-click="getNavigation(task)">
+  	<span class = "firstcolumn" ><img class = "heading-icon" ng-src = "{{task.ImgUrl}}"/></span>
+  	<span class = "secondcolumn heading">{{task.name}}</span>
+      </a>
+  </li>
+
+</ul>
+</div>
+</div>
+</body>
+</html>
