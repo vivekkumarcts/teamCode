@@ -1,0 +1,72 @@
+{
+    "crisisDetailInformation": {
+        "crisisDetails": {
+            "CRISIS_TYPE": "Earthquake",
+            "REPORTED_ON": "05/01/2014",
+            "LOCAL_TIME": "6:36 PM",
+            "TIME_ELAPSED": "3hrs ago",
+            "crisisSeverity": 8.2
+        },
+        "locationInfo": {
+            "isExpanded": false,
+            "locationDetails": [
+                {
+                    "CRISIS_TYPE": "Earthquake",
+                    "CAT_TYPE": "Location type",
+                    "TYPE_VAL": "Data Center"
+                },
+                {
+                    "CRISIS_TYPE": "Earthquake",
+                    "CAT_TYPE": "Hours of Operation",
+                    "TYPE_VAL": "8AM- 6PM (PST)"
+                },
+                {
+                    "CRISIS_TYPE": "Earthquake",
+                    "CAT_TYPE": "Number of Employees",
+                    "TYPE_VAL": 2000
+                }
+            ]
+        },
+        "pointsOfContact": {
+            "isExpanded": false,
+            "contacts": [
+                {
+                    "CRISIS_TYPE": "Earthquake",
+                    "ROLE_TYPE": "Quarterback",
+                    "TYPE_VAL": "James Robert",
+                    "CONTACT_NUMBER": "1234567890",
+                    "CONTACT_NUMBER_TYPE": "OFFICE"
+                },
+                {
+                    "CRISIS_TYPE": "Earthquake",
+                    "ROLE_TYPE": "Security Manager",
+                    "TYPE_VAL": "Weaver Elisa",
+                    "CONTACT_NUMBER": "1234567890",
+                    "CONTACT_NUMBER_TYPE": "OFFICE"
+                },
+                {
+                    "CRISIS_TYPE": "Earthquake",
+                    "ROLE_TYPE": "Facility Manager",
+                    "TYPE_VAL": "Maheshwari Preeti",
+                    "CONTACT_NUMBER": "1234567890",
+                    "CONTACT_NUMBER_TYPE": "OFFICE"
+                }
+            ]
+        },
+        "crisisUpdates": {
+            "isExpanded": true,
+            "updateList": [
+                {
+                    "CRISIS_TYPE": "Earthquake",
+                    "UPDATE_TIME": "15 mins ago",
+                    "UPDATE_DESCRIPTION": "Update Sample text 1"
+                },
+                {
+                    "CRISIS_TYPE": "Earthquake",
+                    "UPDATE_TIME": "25 mins ago",
+                    "UPDATE_DESCRIPTION": "Update Sample text 2"
+                }
+            ]
+        }
+    }
+}

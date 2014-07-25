@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="../styles/css/leaflet.css">
+		<script type="text/javascript" src="../scripts/vendors/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="../scripts/vendors/bootstrap.js"></script>
+		<script src="../scripts/vendors/leaflet.js"></script>
+		<script>
+		
+			var map = L.map('map').setView([51.505, -0.09], 8);
+
+			L.tileLayer('https://{s}.tiles.mapbox.com/v3/{id}/{z}/{x}/{y}.png', {
+				maxZoom : 18,
+				id : 'examples.map-i86knfo3'
+			}).addTo(map);
+
+			var greenIcon = L.icon({
+				iconUrl : '../images/pin.png',
+
+				iconSize : [20, 35], // size of the icon
+			});
+
+			var marker = L.marker([51.508742, -0.120850], {
+				icon : greenIcon
+			}).addTo(map);
+
+			var circle = L.circle([51.395715, -0.121850], 2500, {
+				color : 'red',
+				fillColor : '#f03',
+				fillOpacity : 0.5
+			}).addTo(map);
+
+			marker.bindPopup("<b>Hello world!</b><br>I am a popup.");
+			circle.bindPopup("I am a circle.");
+
+		</script>
+	</head>
+
+	<body class="">
+		<div id="map">
+
+		</div>
+
+	</body>
+</html>

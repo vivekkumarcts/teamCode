@@ -1,0 +1,41 @@
+<html >
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- Bootstrap core CSS -->
+
+<link rel="stylesheet" type="text/css" href="../styles/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../styles/css/listview.css">
+<script type="text/javascript" src="../scripts/vendors/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../scripts/vendors/bootstrap.js"></script>
+<script type="text/javascript" src="../scripts/vendors/angular.min.js"></script>
+<script type="text/javascript" src="../controllers/ListView.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+
+<body ng-app ng-controller="Tasks" style="background-color: #cccccc">
+<div align="center" style="border-bottom:groove;border-bottom-width: 1px;height: 50px;padding-top: 10px;padding-bottom: 10px;color: #357ebd;background-color:#ffffff"><strong>Active Crisis Info</strong><br></div>
+<div id="container" ng-repeat="task in Tasks">
+    <div id="row" ng-click="getNavigation(task)">
+        <div id="left">
+            <div id="circle"><div id="crisisDataInCircle">{{task.crisisData}}</div></div>
+        </div>
+
+        <div id="middle">
+            <div id="crisisType"><strong>{{task.type}}</strong></div>
+            <div id="crisisDate">Reported {{task.reported}}</div>
+            <div id="crisisTime">Your time {{task.time}}</div>
+        </div>
+
+        <div id="right">
+            <br>
+            <div id="crisisDuration">
+                {{task.duration}}<img id = "listNav" src = "../images/icon_listnav.svg"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

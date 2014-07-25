@@ -1,0 +1,367 @@
+{
+    "teamInformation": {
+        "teamMembers": {
+            "teamMemberDetails": [
+                {
+                    "TeamMemberID": 1,
+                    "TeamMemberName": "Jones, Robert",
+                    "TeamMemberRole": "Chair",
+                    "phoneNumbers": [
+                        {
+                            "PhoneType": "Work",
+                            "PhoneTypeDescription": "Work Phone",
+                            "Number": "590-836-5937"
+                        },
+                        {
+                            "PhoneType": "Mobile",
+                            "PhoneTypeDescription": "Mobile Phone",
+                            "Number": "123-836-5937"
+                        },
+                        {
+                            "PhoneType": "Home",
+                            "PhoneTypeDescription": "Home Phone",
+                            "Number": "590-836-5937"
+                        },
+                        {
+                            "PhoneType": "Satellite",
+                            "PhoneTypeDescription": "Satellite Phone",
+                            "Number": "590-123-5937"
+                        }
+                    ]
+                },
+                {
+                    "TeamMemberID": 2,
+                    "TeamMemberName": "Maheshwari, Preeti",
+                    "TeamMemberRole": "Quarterback",
+                    "phoneNumbers": [
+                        {
+                            "PhoneType": "Work",
+                            "PhoneTypeDescription": "Work Phone",
+                            "Number": "510-836-5937"
+                        },
+                        {
+                            "PhoneType": "Mobile",
+                            "PhoneTypeDescription": "Mobile Phone",
+                            "Number": "133-836-5937"
+                        },
+                        {
+                            "PhoneType": "Home",
+                            "PhoneTypeDescription": "Home Phone",
+                            "Number": "520-836-5937"
+                        },
+                        {
+                            "PhoneType": "Satellite",
+                            "PhoneTypeDescription": "Satellite Phone",
+                            "Number": "590-123-5927"
+                        }
+                    ]
+                },
+                {
+                    "TeamMemberID": 3,
+                    "TeamMemberName": "Matt, May",
+                    "TeamMemberRole": "Core-S&S",
+                    "phoneNumbers": [
+                        {
+                            "PhoneType": "Work",
+                            "PhoneTypeDescription": "Work Phone",
+                            "Number": "540-836-5937"
+                        },
+                        {
+                            "PhoneType": "Mobile",
+                            "PhoneTypeDescription": "Mobile Phone",
+                            "Number": "173-836-5937"
+                        },
+                        {
+                            "PhoneType": "Home",
+                            "PhoneTypeDescription": "Home Phone",
+                            "Number": "580-836-5837"
+                        },
+                        {
+                            "PhoneType": "Satellite",
+                            "PhoneTypeDescription": "Satellite Phone",
+                            "Number": "590-173-5957"
+                        }
+                    ]
+                },
+                {
+                    "TeamMemberID": 4,
+                    "TeamMemberName": "Mehra, Honnie",
+                    "TeamMemberRole": "Core-S&S",
+                    "phoneNumbers": [
+                        {
+                            "PhoneType": "Work",
+                            "PhoneTypeDescription": "Work Phone",
+                            "Number": "540-836-5937"
+                        },
+                        {
+                            "PhoneType": "Mobile",
+                            "PhoneTypeDescription": "Mobile Phone",
+                            "Number": "173-836-5937"
+                        },
+                        {
+                            "PhoneType": "Home",
+                            "PhoneTypeDescription": "Home Phone",
+                            "Number": "580-836-5837"
+                        },
+                        {
+                            "PhoneType": "Satellite",
+                            "PhoneTypeDescription": "Satellite Phone",
+                            "Number": "590-173-5957"
+                        }
+                    ]
+                },
+                {
+                    "TeamMemberID": 5,
+                    "TeamMemberName": "Eliza, Weaver",
+                    "TeamMemberRole": "",
+                    "phoneNumbers": [
+                        {
+                            "PhoneType": "Work",
+                            "PhoneTypeDescription": "Work Phone",
+                            "Number": "340-866-5937"
+                        },
+                        {
+                            "PhoneType": "Mobile",
+                            "PhoneTypeDescription": "Mobile Phone",
+                            "Number": "183-836-5937"
+                        },
+                        {
+                            "PhoneType": "Home",
+                            "PhoneTypeDescription": "Home Phone",
+                            "Number": "480-836-5837"
+                        },
+                        {
+                            "PhoneType": "Satellite",
+                            "PhoneTypeDescription": "Satellite Phone",
+                            "Number": "590-173-5957"
+                        }
+                    ]
+                }
+            ]
+        },
+        "teams": {
+            "teamDetails": [
+                {
+                    "TeamID": 1,
+                    "TeamName": "APAC Regional Team",
+                    "isSelected": false,
+                    "teamMembers": [
+                        {
+                            "teamMemberID": 1
+                        },
+                        {
+                            "teamMemberID": 3
+                        }
+                    ]
+                },
+                {
+                    "TeamID": 2,
+                    "TeamName": "Austin Local Event Management Team",
+                    "isSelected": false,
+                    "teamMembers": [
+                        {
+                            "teamMemberID": 2
+                        },
+                        {
+                            "teamMemberID": 4
+                        }
+                    ]
+                },
+                {
+                    "TeamID": 3,
+                    "TeamName": "Boston Local Event Management Team",
+                    "isSelected": false,
+                    "teamMembers": [
+                        {
+                            "teamMemberID": 1
+                        },
+                        {
+                            "teamMemberID": 2
+                        },
+                        {
+                            "teamMemberID": 3
+                        }
+                    ]
+                },
+                {
+                    "TeamID": 4,
+                    "TeamName": "Corporate Crisis Management Team (CCMT)",
+                    "isSelected": false,
+                    "teamMembers": [
+                        {
+                            "teamMemberID": 1
+                        },
+                        {
+                            "teamMemberID": 3
+                        },
+                        {
+                            "teamMemberID": 5
+                        }
+                    ]
+                },
+                {
+                    "TeamID": 5,
+                    "TeamName": "Critical Incident Team (CIT)",
+                    "isSelected": false,
+                    "teamMembers": [
+                        {
+                            "teamMemberID": 3
+                        },
+                        {
+                            "teamMemberID": 4
+                        },
+                        {
+                            "teamMemberID": 5
+                        }
+                    ]
+                },
+                {
+                    "TeamID": 6,
+                    "TeamName": "Executive Crisis Management Team (ECMT)",
+                    "isSelected": false,
+                    "teamMembers": [
+                        {
+                            "teamMemberID": 2
+                        },
+                        {
+                            "teamMemberID": 3
+                        },
+                        {
+                            "teamMemberID": 4
+                        },
+                        {
+                            "teamMemberID": 5
+                        }
+                    ]
+                },
+                {
+                    "TeamID": 7,
+                    "TeamName": "EMEA Regional Team",
+                    "isSelected": false,
+                    "teamMembers": [
+                        {
+                            "teamMemberID": 1
+                        },
+                        {
+                            "teamMemberID": 2
+                        },
+                        {
+                            "teamMemberID": 3
+                        },
+                        {
+                            "teamMemberID": 4
+                        },
+                        {
+                            "teamMemberID": 5
+                        }
+                    ]
+                },
+                {
+                    "TeamID": 8,
+                    "TeamName": "GEMA Regional Team(GRT)",
+                    "isSelected": false,
+                    "teamMembers": [
+                        {
+                            "teamMemberID": 1
+                        },
+                        {
+                            "teamMemberID": 2
+                        },
+                        {
+                            "teamMemberID": 3
+                        },
+                        {
+                            "teamMemberID": 5
+                        }
+                    ]
+                },
+                {
+                    "TeamID": 9,
+                    "TeamName": "Kingston Regional Team)",
+                    "isSelected": false,
+                    "teamMembers": [
+                        {
+                            "teamMemberID": 1
+                        },
+                        {
+                            "teamMemberID": 2
+                        },
+                        {
+                            "teamMemberID": 3
+                        },
+                        {
+                            "teamMemberID": 5
+                        }
+                    ]
+                },
+                {
+                    "TeamID": 10,
+                    "TeamName": "Mississipi Regional Team(MRT)",
+                    "isSelected": false,
+                    "teamMembers": [
+                        {
+                            "teamMemberID": 1
+                        },
+                        {
+                            "teamMemberID": 2
+                        },
+                        {
+                            "teamMemberID": 3
+                        },
+                        {
+                            "teamMemberID": 5
+                        }
+                    ]
+                },
+                {
+                    "TeamID": 11,
+                    "TeamName": "Massachusettes Regional Team(MRT)",
+                    "isSelected": false,
+                    "teamMembers": [
+                        {
+                            "teamMemberID": 1
+                        },
+                        {
+                            "teamMemberID": 2
+                        },
+                        {
+                            "teamMemberID": 3
+                        },
+                        {
+                            "teamMemberID": 5
+                        }
+                    ]
+                },
+                {
+                    "TeamID": 12,
+                    "TeamName": "Wisconsin Regional Team(GRT)",
+                    "isSelected": false,
+                    "teamMembers": [
+                        {
+                            "teamMemberID": 1
+                        },
+                        {
+                            "teamMemberID": 2
+                        },
+                        {
+                            "teamMemberID": 3
+                        }
+                    ]
+                },
+                {
+                    "TeamID": 13,
+                    "TeamName": "Indiana Regional Team",
+                    "isSelected": false,
+                    "teamMembers": [
+                        {
+                            "teamMemberID": 2
+                        },
+                        {
+                            "teamMemberID": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

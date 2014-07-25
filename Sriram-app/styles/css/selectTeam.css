@@ -1,0 +1,66 @@
+.crisis-mgmt-searchTeam-content {
+    font-family:"Helvetica Neue";
+    color:#000;
+    padding-top:68px;
+}
+
+.crisis-mgmt-selectTeam-searchContainer {
+    height:43px;
+    background-color:#d8dde1;
+    padding:8px;
+}
+
+.crisis-mgmt-selectTeam-searchBox {
+    width:100%;
+    border-radius:4px;
+}
+
+.crisis-mgmt-selectTeam-searchIcon {
+    background-size:17px;
+    background: #ffffff url('../../images/search.svg') no-repeat 36%;
+}
+
+.crisis-mgmt-selectTeam-searchBox::-webkit-input-placeholder {
+    text-align:center;
+    font-family:"Helvetica Neue";
+    font-size:15px;
+    color:#8e8e93;
+}
+
+.crisis-mgmt-selectTeam-searchBox:focus::-webkit-input-placeholder {
+    color:transparent;
+}
+
+.crisis-mgmt-selectTeam-searchIcon:focus {
+    background-image:none;
+}
+
+.crisis-mgmt-selectTeam-headerRow {
+    background-color:#ECF0F3;
+    font-size:17px;
+    color:#0064D2;
+    font-weight:700;
+    padding:0;
+}
+
+.crisis-mgmt-selectTeam-otherRow {
+    height:44px;
+    font-size:14px;
+    font-weight:400;
+    color:#000;
+    cursor:pointer;
+    padding:12px 0 0 15px;
+}
+
+.crisis-mgmt-searchTeam-availableTeams {
+    padding:12px 0 0 15px;
+}
+
+.crisis-mgmt-selectTeam-listSelectIcon {
+    background-image:url(../../images/list_select_bg.png);
+    color:#FFF;
+}
+
+.crisis-mgmt-searchTeam-content .list-group-item:first-child,.crisis-mgmt-searchTeam-content .list-group-item:last-child {
+    border-radius:0;
+}
